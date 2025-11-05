@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tarnvir Singh - Protfolio</title>
+
+  <!-- Google Font (assume internet available) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- favicon / small logo -->
+  <link rel="icon" href="assets/" type="image/svg+xml">
+</head>
+
+<body>
+  <!-- NAVBAR (transparent, floating) -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <div class="nav-left">
+        <!-- <img src="" alt="" class="logo" /> -->
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="#contact" class="cta">Let's Talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="eyebrow">— Hi, there I'm</div>
+          <h1 class="hero-title">
+            Tarnvir Singh
+            <span class="role">Software Engineer</span>
+          </h1>
+
+          <p class="hero-desc">
+            I build thoughtful, modern web experiences using HTML, CSS, JavaScript and Python.
+            I focus on UI, frontend interactions and scalable backend APIs.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="assets/Tarnvir_Singh_Resume.pdf" class="btn ghost" download>Download Resume</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/Taran-Saini13" target="_blank" aria-label="github"><img src="assets/github.png"
+                alt="github" id="github"></a>
+            <a href="https://www.linkedin.com/in/tarnvir-singh/" aria-label="linkedin" target="_blank"><img src="assets/linkedin.svg" alt="linkedin"></a>
+            <a href="mailto:tarnsaini9713@gmail.com" aria-label="Mail" target="_blank"><img src="assets/Mail.svg"
+                alt="Mail"></a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="avatar-wrap">
+            <img src="assets/avatar.png" alt="Tarnvir avatar" class="avatar">
+            <div class="avatar-glow"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-background-glow"></div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section id="work" class="work section">
+      <div class="container section-inner">
+        <h3 class="section-title">Work Experience</h3>
+        <p class="section-sub">Selected roles & contributions — placeholder entries</p>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <img src="assets/Frontend.png" alt="" class="work-icon">
+            <div class="work-meta">
+              <h4>Frontend Developer</h4>
+              <p class="muted">UI / React / Next.js — 2023 - Present</p>
+              <p class="small">Built responsive web apps, component libraries and interactive dashboards.</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="assets/Backend.png" alt="" class="work-icon">
+            <div class="work-meta">
+              <h4>Backend Developer</h4>
+              <p class="muted">API / Python / Flask — 2021 - 2023</p>
+              <p class="small">Designed and maintained REST services, optimized DB queries and deployments.</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="assets/ui.png" alt="" class="work-icon">
+            <div class="work-meta">
+              <h4>Open Source Contributor</h4>
+              <p class="muted">Tools & libraries — Ongoing</p>
+              <p class="small">Contributed to UI libraries and automation scripts; wrote docs and examples.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GLOW CENTER ORBIT (visual) -->
+    <section class="orbital">
+      <div class="orbit">
+        <div class="orbit-inner">⟡</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects section">
+      <div class="container section-inner">
+        <h3 class="section-title">Featured Projects</h3>
+        <p class="section-sub">Two hand-picked projects with short descriptions.</p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-preview">
+              <img src="assets/zomato_favicon.svg" alt="project 1 preview">
+            </div>
+            <div class="project-body">
+              <h4>Project One — Zomato Clone</h4>
+              <p class="small">
+                This is a fully responsive Zomato Clone built using HTML, CSS and JavaScript that replicates the modern
+                UI of Zomato's landing pages and app promotion layout. The project focuses on pixel-perfect layout
+                design, smooth responsiveness, gradient effects, and a real-world feel of a food delivery application.
+              </p>
+              <div class="project-links">
+                <a href="https://taran-saini13.github.io/Zomato-Clone/" class="link" target="_blank">Live</a>
+                <a href="https://github.com/Taran-Saini13/Zomato-Clone" class="link" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card alt">
+            <div class="project-preview">
+              <img src="assets/MovieRecommend.png" alt="project 2 preview">
+            </div>
+            <div class="project-body">
+              <h4>Project Two — Movie Recommender</h4>
+              <p class="small">A web-based Movie Recommendation System built with Flask, TMDB, and IMDb data.
+                It suggests similar movies based on user input and displays posters using the TMDB API.
+                The project uses content-based filtering with cosine similarity to recommend movies.</p>
+              <div class="project-links">
+                <a href="https://movie-recommender-0tja.onrender.com" class="link" target="_blank">Live</a>
+                <a href="https://github.com/Taran-Saini13/Movie-Recommender-System" class="link" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section">
+      <div class="container section-inner">
+        <h3 class="section-title">Get in touch</h3>
+        <p class="section-sub">I'm currently open to new opportunities and freelance work.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Email</h4>
+            <p class="muted">tarnsaini9713@gmail.com</p>
+            <a href="mailto:tarnsaini9713@gmail.com" class="btn small">Email me</a>
+          </div>
+
+          <form class="contact-form" action="#" method="POST">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name">
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@domain.com">
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Short message..."></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn" onclick="alertmsg()">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <p class="footer-note"> &copy; <span id="year"></span> Tarnvir Singh — Built with ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- minimal script -->
+  <script>
+    // current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      })
+    });
+
+    function alertmsg(){
+      alert("Looks like my contact form went on vacation 😄 — try reaching me on LinkedIn or email instead!")
+    }
+  </script>
+</body>
+
+</html>
