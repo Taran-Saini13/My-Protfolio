@@ -1,4 +1,4 @@
-# Project2--My-Protfolio
+# My-Protfolio
 💼 My personal portfolio — a responsive web app showcasing my projects, skills, and achievements. Built with modern web technologies and a clean UI.
 
 🌟 Personal Portfolio Website
@@ -27,4 +27,4 @@ Hosting: GitHub Pages / Render / Netlify
 
 🚀 Live Preview
 
-🔗 View Portfolio
+🔗 [View Portfolio](https://taran-saini13.github.io/My-Protfolio/)
